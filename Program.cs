@@ -23,4 +23,11 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+app.MapGet("/", () => Results.Content(
+    "<h1>Hello World</h1><p>Your Web API is running</p>",
+    "text/html"
+));
+
+
 app.Run();
