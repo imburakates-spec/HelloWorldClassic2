@@ -1,9 +1,11 @@
-**/bin/
-**/obj/
-**/.vs/
-**/.vscode/
+**/.vs
+**/bin
+**/obj
 **/*.user
 **/*.suo
 **/*.cache
-**/TestResults/
-.git/
+**/*.log
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
