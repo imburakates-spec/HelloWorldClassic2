@@ -25,7 +25,7 @@ app.MapControllers();
 
 
 app.MapGet("/", () => Results.Content(
-    "<h1>Hello World</h1><p>Your Web API is running</p>",
+    "<h1>Hello World</h1><p>Web API is running</p>",
     "text/html"
 ));
 
